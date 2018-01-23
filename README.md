@@ -6,7 +6,10 @@
 	int x = 5;
 	int y = 6;
 	int z = 11;
-	int[] arr = new int[] {x, y, z};
+
+	/////////////////////////////////
+	////in this way, code is shorter
+	int[] arr = new int[] {x, y, z};   
 	System.out.println(arr);
 	for (int cur : arr) {
 		System.out.println(cur);
